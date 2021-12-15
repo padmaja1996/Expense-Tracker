@@ -5,8 +5,7 @@
   "main": "server.js",
   "homepage": "https://github.com/padmaja1996/Expense-tracker.git",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   
     "server": "npm run watch --prefix server",
     "client": "npm run start --prefix client",
     "watch": "npm run server & npm run client "
