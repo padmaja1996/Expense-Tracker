@@ -3,29 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "homepage": "https://github.com/padmaja1996/Expense-tracker.git",
   "scripts": {
     "server": "npm run watch --prefix server",
     "client": "npm run start --prefix client",
-    "watch": "npm run server & npm run client "
+    "watch": "npm run server & npm run client ",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "express-async-handler": "^1.2.0"
+    "express-async-handler": "^1.2.0",
+    "gh-pages": "^3.2.3"
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
